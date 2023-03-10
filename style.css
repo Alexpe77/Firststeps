@@ -1,3 +1,23 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
-    color: red;
+    font-style: normal;
+    text-decoration: underline;
+}
+td {
+    color:green
+}
+
+th {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(154, 163, 241);
 }
