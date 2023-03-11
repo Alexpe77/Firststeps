@@ -1,11 +1,15 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
 h1 {
     font-style: normal;
     text-decoration: underline;
+    background-color: lightgray;
+    text-decoration: none;
 }
+
 td {
     color:green
 }
@@ -15,9 +19,47 @@ th {
 }
 
 a {
+    color: black;
+    background-color: rgb(184, 219, 248);
     text-decoration: none;
+    margin: 4px 2px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1.5px solid black;
+    cursor: pointer;
 }
 
 nav {
-    background-color: rgb(154, 163, 241);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.container1 {
+    text-align: center;
+}
+
+main {
+    background-color:rgb(184, 219, 248);
+}
+
+main a {
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+header h1 {
+    text-decoration: none;
+}
+
+.container1, nav {
+    background-color: lightgrey;
+}
+
+img {
+    max-width: 10%;
+    border-radius: 50%;
 }
