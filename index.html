@@ -7,21 +7,22 @@
    <script src="https://kit.fontawesome.com/49104fba89.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <div class="container1">
-      <header>
+   <header>
+      <div class="container-img">
+         <img src="C:\Users\Alex P\Documents\Premierprojet\Firststeps/pdp.jpg" alt="Photo de profil">
          <h1>Alexandra Petit</h1>
          <h2><strong>Junior Web Developer</strong></h2>
-         <img src="C:\Users\Alex P\Documents\Premierprojet\Firststeps/pdp.jpg">
-      </header>
-   </div>
-   <nav>
-      <a href="#apropos">&Agrave; propos</a>
-      <a href="#competences">Compétences</a>
-      <a href="#softskills">Soft Skills</a>
-      <a href="#exppro">Expérience Professionelle</a>
-      <a href="#diplomes">Diplômes</a>
-      <a href="#contact">Contact</a>
-   </nav>
+      </div>
+   </header>   
+      <nav>
+         <a href="#apropos">&Agrave; propos</a>
+         <a href="#competences">Compétences</a>
+         <a href="#softskills">Soft Skills</a>
+         <a href="#exppro">Expérience Professionelle</a>
+         <a href="#langues">Langues</a>
+         <a href="#diplomes">Diplômes</a>
+         <a href="#contact">Contact</a>
+      </nav>
    <br>
    <main>
       <h1 id="apropos">&Agrave; propos</h1>
@@ -68,8 +69,8 @@
       <h1 id="exppro">Expérience Professionelle</h1>
       <ul>
          <li>Vendeuse pendant 7 ans dans diverses entreprises</li>
-              <p><i><b>Tâches :</b></i> Faire la mise en place des fruits, légumes et pains avant l'ouverture,
-             conseiller le client, tenir la caisse et la compter avant et après le service,
+            <p><i><b>Tâches :</b></i> Faire la mise en place des fruits, légumes et pains avant l'ouverture,
+             conseiller les clients, tenir la caisse et la compter avant et après le service,
              entretenir son poste de travail, utiliser un transpalette manuel
              ou électrique, respecter les consignes de sécurité, vérifier les bons
              de livraison, effectuer les commandes du rayon, procéder à l'inventaire, remplir un carnet
@@ -77,22 +78,40 @@
          <li>Commis de cuisine pendant 1 an et demi</li>
              <p><i><b>Tâches :</b></i> Respecter les différentes normes d'hygiène, veriller à la propreté
              du poste de travail et de l'établissement, effectuer la mise en place du froid, veiller à la
-             fraicheur des aliments, gérer les étudiants, seconder le chef de cuisine, , envoyer les plats,
+             fraicheur des aliments, gérer les étudiants, seconder le chef de cuisine, envoyer les plats,
              réceptionner et ranger les marchandises, assurer la finition et la décoration des différents mets,
              effectuer la plonge, préparer les desserts, utiliser une trancheuse, etc.</p>
       </ul>
+      <h1 id="langues">Langues</h1>
+         <ul>
+            <li>
+               Français : Langue maternelle
+            </li>
+            <li>
+               Anglais : Conversation de base, langage informatique
+            </li>
+         </ul>
       <h1 id="diplomes">Diplômes</h1>
          CESS dans l'option technique commerciale<br>
          Gestion<br>
          Ecole Félicien Rops Namur
       <h1 id="contact">Contact</h1>
+      <section>
       <form>
-         <input placeholder="Nom" required /><br>
-         <input placeholder="Email" required /><br>
-         <textarea placeholder="Message" required ></textarea><br>
-         <input type="submit" value="SEND"/>
+         <div class="form-nom">
+            <input placeholder="Nom" required /><br>
+         </div>
+         <div class="form-email">
+            <input placeholder="Email" required /><br>
+         </div>
+         <div class="form-message">
+            <textarea placeholder="Message" required ></textarea><br>
+         </div>
+         <div class="form-envoyer">
+            <input type="submit" value="Envoyer"/>
+         </div>
      </form>
-
+     </section>
    </main>
 
 </body>

@@ -6,7 +6,7 @@ body {
 h1 {
     font-style: normal;
     text-decoration: underline;
-    background-color: lightgray;
+    background-color: rgb(244, 246, 246);
     text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ th {
 
 a {
     color: black;
-    background-color: rgb(184, 219, 248);
+    background-color: rgb(133, 193, 233);
     text-decoration: none;
     margin: 4px 2px;
     padding: 12px 24px;
@@ -36,12 +36,12 @@ nav {
     gap: 10px;
 }
 
-.container1 {
+.container-img {
     text-align: center;
 }
 
 main {
-    background-color:rgb(184, 219, 248);
+    background-color:rgb(133, 193, 233);
 }
 
 main a {
@@ -55,11 +55,24 @@ header h1 {
     text-decoration: none;
 }
 
-.container1, nav {
-    background-color: lightgrey;
+.container-img, nav {
+    background-color: rgb(244, 246, 246);
 }
 
 img {
     max-width: 10%;
     border-radius: 50%;
+}
+
+.form-envoyer {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 5px;
+    border-radius: 3px;
 }
