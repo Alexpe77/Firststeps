@@ -29,11 +29,13 @@ td {
     color:green;
     padding: 10px;
     text-align: justify;
+    border: 2px solid black;
 }
 
 th {
     text-align: center;
     width: 100px;
+    border: 2px solid black;
 }
 
 a {
@@ -87,7 +89,6 @@ img {
 .form-envoyer {
     margin-left: 50px;
     margin-bottom: 20px;
-    border: 2px solid yellow;
 }
 
 form {
@@ -96,5 +97,4 @@ form {
     margin-left: 10px;
     gap: 5px;
     border-radius: 3px;
-    border: 2px solid red;
 }
